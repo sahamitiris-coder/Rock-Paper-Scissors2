@@ -1,0 +1,11 @@
+.container{display:flex;flex-direction:row;gap:10px;}
+.box {display:flex;width: 150px;justify-content:center;border:2px solid green;}
+#box1 {display:flex;width: 150px;justify-content: center;border: 2px solid green; margin-right: auto; }
+nav {height: 60px;}
+body{background-color:cyan;}
+
+
+.main{display:flex; flex-direction:column; gap: 1px;justify-content:center; align-items: center;height: 300px;height: calc(100vh - 60px); font-size:30px;color:cadetblue;}
+.card{display:flex;flex-direction:row;gap:10px;color:chocolate;}
+.cards {display:flex;flex-direction:row;gap:10px;color:chocolate;}
+.footer{display:flex;flex-direction:row;color:black;justify-content: right;}
