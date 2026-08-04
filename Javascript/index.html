@@ -2,9 +2,47 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Game</title>
-    <script src="script.js" ></script>
+    <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
-<body>
+<body style="background-color:bisque">
+    <main>
+        <h1 style="background-color: aquamarine; border: solid red 4px; text-align:center">THE ROCK PAPER SCISSORS GAME</h1>
+        <h3 style="background-color:burlywood; border: solid red 2px;">Choose your move-</h3>
+        <div class="choices">
+            <button id="choice-button1" data-choice="rock">
+                ROCK
+            </button>
+            <button id="choice-button2" data-choice="paper">
+                PAPER
+            </button>
+            <button id="choice-button3" data-choice="scissors">
+                SCISSORS
+            </button>
+        </div>
+        <div class="game-info">
+            <p>Your choice: <span id="human-choice">-</span></p>
+            <p>Computer's choice: <span id="computer-choice">-</span></p>
+        </div>
+        <div class="scoreboard">
+            <p>Your score: <span id="human-score">-</span></p>
+            <p>Computer's score: <span id="computer-score">-</span></p>
+        </div>
+        <h3 id="remark">REMARK</h3>
+        <div>
+            <div>
+                <h3 id="winner">GAME RESULT</h3>
+            </div>
+        <button id="start">GO</button>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+        <button id="restart">Restart the Game</button>
+        </div>
+    </main>
+
 
 </body>
 </html>
